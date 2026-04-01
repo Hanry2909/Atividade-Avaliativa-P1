@@ -11,7 +11,7 @@ O fluxo completo da aplicação abrange:
 
 ---
 
-## 🏗️ Arquitetura Adotada: MVVM (Model-View-ViewModel)
+##  Arquitetura Adotada: MVVM (Model-View-ViewModel)
 
 A arquitetura escolhida para este projeto foi o **MVVM**, visando a separação de responsabilidades e facilidade de manutenção:
 
@@ -23,7 +23,7 @@ A arquitetura escolhida para este projeto foi o **MVVM**, visando a separação 
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 - **Linguagem:** Dart
 - **Framework:** Flutter
 - **Gerenciamento de Rotas:** Rotas nomeadas centralizadas.
