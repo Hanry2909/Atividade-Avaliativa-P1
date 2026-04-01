@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:projeto02/app/routes/app_routes.dart';
 
-// Este bloco abaixo é essencial para o app iniciar!
 void main() {
   runApp(const AppWidget());
 }
@@ -17,13 +16,13 @@ class AppWidget extends StatelessWidget {
       
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        scaffoldBackgroundColor: Colors.white, 
         useMaterial3: false, 
       ),
 
-      // Define que o app começa na tela de Login
-      initialRoute: AppRoutes.login, 
+      
+      initialRoute: '/', 
 
-      // Conecta o mapa de rotas que você ajustou no app_routes.dart
       routes: AppRoutes.routes,
     );
   }
